@@ -1,6 +1,10 @@
 # Send ether
 ## Send 1 ether from account 0 to account 1
 ```shell
+# From personal account 0
+TO=1 VALUE=1 npm run _send
+
+# Or from any account
 FROM=0 TO=1 VALUE=1 npm run send
 ```
 

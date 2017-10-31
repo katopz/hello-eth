@@ -7,27 +7,33 @@ We will do it with `Docker` for faster setup and `npm` for shorter command, feel
 - NodeJS : https://nodejs.org/en/download/
 - Git : https://git-scm.com/downloads
 
+## Optional
+- VSCode : https://code.visualstudio.com/download
+
 > Or via command line
-  ```shell
-  # Install brew
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```shell
+# Install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-  # Ensure update
-  brew update && brew upgrade
+# Ensure update
+brew update && brew upgrade
 
-  # Install Docker
-  brew cask install docker
-  brew ls -l /usr/local/bin/docker*
+# Install NodeJS
+brew install node
 
-  # Optional for Docker Machine
-  brew cask install virtualbox
+# Install Git
+brew install git
 
-  # Install NodeJS
-  brew install node
+# Install Docker
+brew cask install docker
+brew ls -l /usr/local/bin/docker*
 
-  # Install Git
-  brew install git
-  ```
+# Optional IDE VSCode
+brew cask install visual-studio-code
+
+# Optional for Docker Machine
+brew cask install virtualbox
+```
 
 ## Get the source
 ```shell
@@ -41,9 +47,4 @@ cd ethereum-docker
 ## Setup Ethereum Stacks with Docker Compose
 ```shell
 npm run up
-```
-
-## Setup truffle
-```shell
-npm install -g truffle
 ```
