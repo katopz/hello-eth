@@ -13,16 +13,25 @@
 - [web3.js](https://github.com/ethereum/web3.js/) is the Ethereum compatible JavaScript API which implements the Generic JSON RPC spec. It's available on npm as a node module
 - [Truffle](https://github.com/trufflesuite/truffle) is a NodeJS Framework for Ethereum, use for compile, deploy smart contract.
 - [Solidity](http://solidity.readthedocs.io/en/latest/#solidity) is a contract-oriented, high-level language whose syntax is similar to that of JavaScript and it is designed to target the Ethereum Virtual Machine (EVM).
+- ABI : Application Binary Interface, is basically how you call functions in a contract and get data back.
 
 ## Examples
 - [x] Setup : https://github.com/katopz/ethereum-docker
 
 ## TODO
-- [ ] Send some ether example.
-- [ ] Simple Smart contract examples.
-- [ ] CRUD examples.
+- [x] Send some ether example.
+- [x] Custom function with GraphQL.
+- [ ] Oracle?
 - [ ] Cool slide presentation as chat interface.
 
 ## TOHAVE
 - [ ] Cool Blockchain landscape.
 - [ ] Cool Blockchain visualization.
+
+```
+geth - web3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ webjs
+geth - web3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ webjs + react
+geth - web3 ~~~~ webjs + graphql_server ~~~~ graphql_client + react + redux
+geth - web3 ~~~~ webjs + graphql_server ~~~~ apollo client
+geth - web3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ webjs + graphql_anywhere + apollo client
+```
