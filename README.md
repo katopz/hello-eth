@@ -17,13 +17,24 @@
 
 ## Examples
 - [x] Setup : https://github.com/katopz/ethereum-docker
+- [x] Simple : https://github.com/katopz/truffle-simple-storage-example
+- [x] Advance : https://github.com/katopz/truffle-metacoin-example
+- [x] CRUD : https://github.com/katopz/ethereum-todolist
+- [x] Web3 : https://github.com/katopz/web3-react-example
+- [x] GraphQL : https://github.com/katopz/ethereum-to-graphql
 
 ## TODO
 - [x] Send some ether example.
 - [x] Custom function with GraphQL.
-- [ ] Oracle?
-- [ ] Debug
 - [ ] Cool slide presentation as chat interface.
+
+## Missing
+- [ ] Solidity language.
+- [ ] Design Pattern.
+- [ ] Package management.
+- [ ] Debug? // Bug!
+- [ ] Deploy to other network? // Slow!
+- [ ] Oracle? // Later!
 
 ## TOHAVE
 - [ ] Cool Blockchain landscape.
