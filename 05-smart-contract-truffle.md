@@ -22,7 +22,22 @@ truffle init
 
 # Build
 ```shell
-truffle compile
+truffle compile --all
+```
+
+# Deploy
+```shell
+truffle migrate --reset
+```
+
+# Develop
+> This will use `testrpc` inside `truffle` port `9545`
+```shell
+# To getting in
+truffle develop
+
+# To getting out
+.exit
 ```
 
 # Console
@@ -33,3 +48,7 @@ truffle console
 # To getting out
 .exit
 ```
+
+# Example
+SimpleStorage example with getter/setter and simple test
+Source : https://github.com/katopz/truffle-simple-storage-example

@@ -1,4 +1,4 @@
-# Setup Ethereum environments
+# Setup `Ethereum` environments
 We will do it with `Docker` for faster setup and `npm` for shorter command, feel free to dig in the source for long real command :)
 
 ## Prerequisites
@@ -38,7 +38,7 @@ brew cask install virtualbox
 ## Get the source
 ```shell
 # Pull source code to local
-git clone git@github.com:katopz/ethereum-docker.git
+git clone https://github.com/katopz/ethereum-docker.git
 
 # Get in folder
 cd ethereum-docker

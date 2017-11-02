@@ -1,4 +1,7 @@
 # Test Smart Contract
+Will use MetaCoin example for run tests, aim to learn how we test with `.sol` and `.js`.
+Source : https://github.com/katopz/truffle-metacoin-example
+
 ```shell
 truffle test
 ```

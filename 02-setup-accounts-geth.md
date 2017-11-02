@@ -52,7 +52,7 @@ npm run _new
 > @ _new /Users/katopz/git/ethereum-docker
 > npm run exec -- 'personal.newAccount()'
 
-c
+
 > @ exec /Users/katopz/git/ethereum-docker
 > npm run geth -- attach ipc://root/.ethereum/devchain/geth.ipc --exec "personal.newAccount()"
 

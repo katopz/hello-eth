@@ -55,8 +55,7 @@ npm run balances
 
 
 > @ geth /Users/katopz/git/ethereum-docker
-> docker exec -it $(docker ps -a -q --filter name=ethereumdocker_eth) geth "attach" "ipc://root/.ethereum/devchain/geth.ipc" "--exec" "loadScript(\"./src/gethload.
-js\")"
+> docker exec -it $(docker ps -a -q --filter name=ethereumdocker_eth) geth "attach" "ipc://root/.ethereum/devchain/geth.ipc" "--exec" "loadScript(\"./src/gethload.js\")"
 
   eth.accounts[0]:      0x007ccffb7916f37f7aeef05e8096ecfbe55afc2f      balance: 20 ether
   eth.accounts[1]:      0x99429f64cf4d5837620dcc293c1a537d58729b68      balance: 20 ether

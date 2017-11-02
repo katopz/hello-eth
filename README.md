@@ -22,6 +22,7 @@
 - [x] Send some ether example.
 - [x] Custom function with GraphQL.
 - [ ] Oracle?
+- [ ] Debug
 - [ ] Cool slide presentation as chat interface.
 
 ## TOHAVE
