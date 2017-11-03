@@ -15,6 +15,8 @@
 - [Truffle](https://github.com/trufflesuite/truffle) is a NodeJS Framework for Ethereum, use for compile, deploy smart contract.
 - [Solidity](http://solidity.readthedocs.io/en/latest/#solidity) is a contract-oriented, high-level language whose syntax is similar to that of JavaScript and it is designed to target the Ethereum Virtual Machine (EVM).
 - ABI : Application Binary Interface, is basically how you call functions in a contract and get data back.
+- IPC : Inter-process Communications, the mechanisms an operating system provides to allow the processes to manage shared data.
+- RPC : Remote Procedure Calls, a kind of request–response protocol
 
 ## Examples
 - [x] Setup : https://github.com/katopz/ethereum-docker
@@ -24,28 +26,14 @@
 - [x] Web3 : https://github.com/katopz/web3-react-example
 - [x] GraphQL : https://github.com/katopz/ethereum-to-graphql
 
-## TODO
-- [x] Send some ether example.
-- [x] Custom function with GraphQL.
-- [ ] Test with geth
-- [ ] Cool slide presentation as chat interface.
-
 ## Missing
-- [ ] Advance Solidity language.
-- [ ] Design Pattern.
-- [ ] Package management.
+- [ ] Advance Solidity language
+- [ ] Design Pattern
+- [ ] Package management // Truffle
 - [ ] Debug? // Bug!
 - [ ] Deploy to other network? // Slow!
 - [ ] Oracle? // Later!
 
-## TOHAVE
-- [ ] Cool Blockchain landscape.
-- [ ] Cool Blockchain visualization.
-
-```
-geth - web3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ webjs
-geth - web3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ webjs + react
-geth - web3 ~~~~ webjs + graphql_server ~~~~ graphql_client + react + redux
-geth - web3 ~~~~ webjs + graphql_server ~~~~ apollo client
-geth - web3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ webjs + graphql_anywhere + apollo client
-```
+## TODO
+- [x] Blockchain landscape.
+- [ ] Blockchain visualization.
