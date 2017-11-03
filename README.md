@@ -1,6 +1,8 @@
 # hello-eth
 ⛓ An easiest way to enjoy Ethereum developments.
 
+![](img/hello-eth.jpg)
+
 ## Knowledge base
 - [Blockchain](https://en.wikipedia.org/wiki/Blockchain) is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data. It enables digital currency named Bitcoin and Ethereum.
 - [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is a digital asset designed by its inventor, Satoshi Nakamoto, to work as a currency.
