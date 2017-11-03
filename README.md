@@ -8,6 +8,7 @@
 - [web3](http://ethdocs.org/en/latest/introduction/web3.html) is a platform for decentralized apps (dApps).
 - [Dapps](http://www.ethereumwiki.com/ethereum-wiki/dapps/) is a Decentralized Applications on web3 which connect Frontend with Smart Contract on Blockchain.
 - [MetaMask](https://metamask.io/) is a Dapps browsers as Chrome extension. Allows you to run Ethereum dApps right in your browser without running a full Ethereum node.
+- [DAO](https://ethereum.org/dao) : Decentralized Autonomous Organization, 
 
 ## Developers
 - [web3.js](https://github.com/ethereum/web3.js/) is the Ethereum compatible JavaScript API which implements the Generic JSON RPC spec. It's available on npm as a node module
@@ -26,10 +27,11 @@
 ## TODO
 - [x] Send some ether example.
 - [x] Custom function with GraphQL.
+- [ ] Test with geth
 - [ ] Cool slide presentation as chat interface.
 
 ## Missing
-- [ ] Solidity language.
+- [ ] Advance Solidity language.
 - [ ] Design Pattern.
 - [ ] Package management.
 - [ ] Debug? // Bug!

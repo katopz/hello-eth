@@ -6,6 +6,7 @@ We will do it with `Docker` for faster setup and `npm` for shorter command, feel
 - Docker : https://docs.docker.com/engine/installation/#desktop
 - NodeJS : https://nodejs.org/en/download/
 - Git : https://git-scm.com/downloads
+- [Truffle](http://truffleframework.com/) : `npm install -g truffle`
 
 ## Optional
 - VSCode : https://code.visualstudio.com/download
